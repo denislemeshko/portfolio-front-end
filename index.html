@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#603cba">
+		<meta name="theme-color" content="#ffffff">
+		<!-- <meta name="imagetoolbar" content="no">
+		<meta name="msthemecompatible" content="no">
+		<meta name="cleartype" content="on">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="address=no">
+		<meta name="google" content="notranslate">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link sizes="57x57" href="/apple-touch-icon-57x57.png" rel="apple-touch-icon">
+		<link sizes="114x114" href="/apple-touch-icon-114x114.png" rel="apple-touch-icon">
+		<link sizes="72x72" href="/apple-touch-icon-72x72.png" rel="apple-touch-icon">
+		<link sizes="144x144" href="/apple-touch-icon-144x144.png" rel="apple-touch-icon">
+		<link sizes="60x60" href="/apple-touch-icon-60x60.png" rel="apple-touch-icon">
+		<link sizes="120x120" href="/apple-touch-icon-120x120.png" rel="apple-touch-icon">
+		<link sizes="76x76" href="/apple-touch-icon-76x76.png" rel="apple-touch-icon">
+		<link sizes="152x152" href="/apple-touch-icon-152x152.png" rel="apple-touch-icon">
+		<link sizes="180x180" href="/apple-touch-icon-180x180.png" rel="apple-touch-icon"> -->
+		<!-- <link sizes="192x192" href="favicon-192x192.png" rel="icon" type="image/png">
+		<link sizes="160x160" href="favicon-160x160.png" rel="icon" type="image/png">
+		<link sizes="96x96" href="favicon-96x96.png" rel="icon" type="image/png">
+		<link sizes="16x16" href="favicon-16x16.png" rel="icon" type="image/png">
+		<link sizes="32x32" href="favicon-32x32.png" rel="icon" type="image/png"> -->
+		<!-- <link rel="manifest" href="manifest.json">
+		<meta name="application-name" content="">
+		<meta name="msapplication-tooltip" content="">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/mstile-large.png">
+		<meta name="msapplication-starturl" content="https://csssr.github.io/csssr-project-template/">
+		<meta name="msapplication-tap-highlight" content="no">
+		<meta name="msapplication-square70x70logo" content="/mstile-small.png">
+		<meta name="msapplication-square150x150logo" content="/mstile-medium.png">
+		<meta name="msapplication-wide310x150logo" content="/mstile-wide.png">
+		<meta name="msapplication-square310x310logo" content="/mstile-large.png"> -->
+		<title>Denis Lemeshko Portfolio</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link rel="subresource" href="assets/img/bg-header.jpg">
+		<link rel="preload" href="assets/fonts/RalewayBold/RalewayBold.woff" as="font" type="font/woff" crossorigin>
+		<link href="assets/styles/app.min.css" rel="stylesheet">
+	</head>
+	<body class="page">
+		<header id="intro" class="header">
+			<picture>
+				<source type="image/webp" srcset="assets/img/bg/bg-header.webp" class="header__img" />
+				<source type="image/jpg" srcset="assets/img/bg/bg-header.jpg" class="header__img" />
+				<img src="assets/img/bg/bg-header.jpg" alt="bg" class="header__img" title="" />
+			</picture>
+			<div class="header__wrapper">
+				<div class="logo">
+					<a href="javascript:void(0)" class="logo__svg">
+						<img src="assets/img/portfolio_logo.svg" alt="ag_logo" class="logo__img" title="" />
+					</a>
+				</div>
+				<div class="menubtn">
+					<div class="menubtn__bar">
+						<nav class="menubtn__menu">
+							<ul class="menubtn__list">
+								<li class="menubtn__str">
+									<a href="#intro" class="menubtn__item">intro</a>
+								</li>
+								<li class="menubtn__str">
+									<a href="#about" class="menubtn__item">about</a>
+								</li>
+								<li class="menubtn__str">
+									<a href="#experience" class="menubtn__item">experience</a>
+								</li>
+								<li class="menubtn__str">
+									<a href="#resume" class="menubtn__item">resume</a>
+								</li>
+								<li class="menubtn__str">
+									<a href="#skills" class="menubtn__item">skills</a>
+								</li>
+								<li class="menubtn__str">
+									<a href="#portfolio" class="menubtn__item">portfolio</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="title">
+				<div class="title__wrapper">
+					<h1 class="title__text">Denis Lemeshko</h1>
+					<p class="title__descr">FRONT-END DEVELOPER</p>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section id="about" class="about">
+				<div class="section">
+					<div class="about__descr">
+						<h2 class="about__title">About</h2>
+						<div class="about__text">Let's get acquainted closer</div>
+					</div>
+					<div class="content">
+						<div class="content__about">
+							<h3 class="content__title">ABOUT ME</h3>
+							<p class="content__text content__text_highlighted">I like to make up websites because I immediately see the result of my work.</p>
+							<p
+							 class="content__text"> Continuing education is necessary in this profession, and I'm always looking for an opportunity to expand my boundaries, whether it's a backend on Phyton or applications on React. I am also interested in testing, project management, data analysis and data visualization.
+								</p>
+						</div>
+						<div class="content__pic">
+							<div class="content__wrapp">
+								<picture>
+									<source type="image/webp" srcset="assets/img/myPhoto/my_photo.webp" class="content__img" />
+									<source type="image/jpg" srcset="assets/img/myPhoto/my_photo.jpg" class="content__img" />
+									<img src="assets/img/myPhoto/my_photo.jpg" alt="me" class="content__img" title="" />
+								</picture>
+							</div>
+						</div>
+						<div class="content__info">
+							<h3 class="content__title">PERSONAL INFORMATION</h3>
+							<ul class="content__list">
+								<li class="content__str">
+									<div class="content__subtitle">Full name</div>
+									<div class="content__text">Denis Lemeshko</div>
+								</li>
+								<li class="content__str">
+									<div class="content__subtitle">Date of birth</div>
+									<div class="content__text">27.10.1975</div>
+								</li>
+								 <li class="content__str">
+									<div class="content__subtitle">Skype</div>
+									<div class="content__text">
+										<a href="skype:cl49352009?add" target="_blank" class="content__link">cl49352009</a>
+									</div>
+								</li> 
+								<li class="content__str">
+									<div class="content__subtitle">WhatsApp</div>
+									<div class="content__text">
+										<a href="https://wa.me/79645580097" target="_blank" class="content__link">+79645580097</a>
+									</div>
+								</li>
+								<li class="content__str">
+									<div class="content__subtitle">E-mail:</div>
+									<div class="content__text">
+										<a href="mailto:lemesh75noir@gmail.com" target="_blank" class="content__link">lemesh75noir@gmail.com</a>
+									</div>
+								</li>
+							</ul>
+							<div class="content__wrapper">
+								<div class="social">
+									<ul class="social__list">
+										<li class="social__str">
+											<a href="https://github.com/denislemeshko" target="_blank" title="github" class="social__link">
+												<svg><use xlink:href="assets/images/icon.svg#icon_github"></use></svg>
+											</a>
+										</li>
+										<li class="social__str">
+											<a href="https://www.linkedin.com/in/denis-lemeshko/"
+											 target="_blank" title="linkedin" class="social__link">
+												<svg><use xlink:href="assets/images/icon.svg#icon_linkedin"></use></svg>
+											</a>
+										</li>
+										<li class="social__str">
+											<a href="https://www.facebook.com/bestofbist/" target="_blank" title="facebook" class="social__link">
+												<svg><use xlink:href="assets/images/icon.svg#icon_facebook"></use></svg>
+											</a>
+										</li>
+										<li class="social__str">
+											<a href="https://www.instagram.com/denchikle/" target="_blank" title="instagram" class="social__link">
+												<svg><use xlink:href="assets/images/icon.svg#icon_instagram"></use></svg>
+											</a>
+										</li>
+										<li class="social__str">
+											<a href="https://vk.com/id711903612" target="_blank" title="vk" class="social__link">
+												<svg><use xlink:href="assets/images/icon.svg#icon_vk"></use></svg>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="experience" class="experience">
+				<div class="section">
+					<div class="skills__descr skills__descr_light">
+						<h2 class="skills__title">Experience</h2>
+						<div class="skills__text">My achievements</div>
+					</div>
+					<div class="section__wrapper">
+						<div class="timeline">
+							<div class="timeline__block">
+								<div class="timeline__content">
+									<h2 class="timeline__title">the Russian New University (RosNOU)</h2>
+									<h3 class="timeline__company">
+										<a href="https://rosnou.ru/en/institutes/isikt/" target="_blank" class="timeline__link">Information Systems and Technologies</a>
+									</h3>
+									<p class="timeline__job-descr">The qualification of a specialist in the field of information technology in business was awarded. Studied methods of developing information systems and databases in IT companies.</p>
+								</div>
+								<div class="timeline__img">
+									<div class="timeline__wrapp-img">
+										<svg><use xlink:href="assets/images/icon.svg#icon_mortarboard"></use></svg>
+									</div>
+								</div>
+								<span class="timeline__date">SEP 2005 - JUN 2011</span>
+							</div>
+							<div class="timeline__block">
+								<div class="timeline__content">
+									<h2 class="timeline__title">FreeCodeCamp</h2>
+									<h3 class="timeline__company">
+										<a href="https://www.freecodecamp.org/" target="_blank" class="timeline__link">www.freecodecamp.org</a>
+									</h3>
+									<p class="timeline__job-descr">Bootstrap, jQuery, SASS, Responsive Web Design, Basic JavaScript, ES6, Regular Expressions</p>
+								</div>
+								<div class="timeline__img">
+									<div class="timeline__wrapp-img">
+										<svg><use xlink:href="assets/images/icon.svg#icon_mortarboard"></use></svg>
+									</div>
+								</div>
+								<span class="timeline__date">OCT 2017 - JUL 2019</span>
+							</div>
+							<div class="timeline__block">
+								<div class="timeline__content">
+									<h2 class="timeline__title">Utest</h2>
+									<h3 class="timeline__company">
+										<a href="https://www.utest.com/" target="_blank" class="timeline__link">a Utester</a>
+									</h3>
+									<p class="timeline__job-descr">
+										The academy on this freelance site offers a range of courses to improve your skills as a tester. I learned new topics, got certified, and improved my tester rating to get the most profitable testing opportunities.</p>
+								</div>
+								<div class="timeline__img">
+									<div class="timeline__wrapp-img">
+										<svg><use xlink:href="assets/images/icon.svg#icon_web"></use></svg>
+									</div>
+								</div>
+								<span class="timeline__date">OCT 2019 - JAN 2020</span>
+							</div>
+							<i class="timeline__arrow"></i>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="resume">
+				<a id="resume" href="assets/files/CV.pdf" class="resume__resume">
+					<span class="resume__title">View my resume</span>
+					<img src="assets/img/download.svg" alt="download" class="resume__icon" title="" />
+				</a>
+			</div>
+			<div id="skills" class="skills">
+				<div class="section">
+					<div class="skills__descr skills__descr_dark">
+						<h2 class="skills__title">Skills </h2>
+						<div class="skills__text"> KNOWLEDGE</div>
+					</div>
+					<div class="section__wrapp">
+						<div id="tagcloud" class="tagcloud"></div>
+					</div>
+				</div>
+			</div>
+			<div id="portfolio" class="portfolio">
+				<div class="section">
+					<div class="skills__descr skills__descr_light">
+						<h2 class="skills__title">Portfolio</h2>
+						<div class="skills__text"> Some of My Work</div>
+					</div>
+					<div class="portfolio-item">
+						<div class="portfolio-item__wrapper">
+							<div class="portfolio-item__screenshots">
+								<picture>
+									<source type="image/webp" srcset="assets/img/bank/bank_lg.webp" />
+									<source type="image/png" srcset="assets/img/bank/bank_lg.png" />
+									<img src="assets/img/bank/bank_lg.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_lg"
+									 title="" />
+								</picture>
+								<picture>
+									<source type="image/webp" srcset="assets/img/bank/bank_md.webp" />
+									<source type="image/png" srcset="assets/img/bank/bank_md.png" />
+									<img src="assets/img/bank/bank_md.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_md"
+									 title="" />
+								</picture>
+								<picture>
+									<source type="image/webp" srcset="assets/img/bank/bank_sm.webp" />
+									<source type="image/png" srcset="assets/img/bank/bank_sm.png" />
+									<img src="assets/img/bank/bank_sm.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_sm"
+									 title="" />
+								</picture>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-title">
+						<h3 class="portfolio-title__text">Bank</h3>
+						<div class="portfolio-title__buttons">
+							<a href="https://denislemeshko.github.io/bank-app-vite-project/" target="_blank" class="portfolio-title__view">View</a>
+							<a href="https://github.com/denislemeshko/bank-app-vite-project/tree/gh-pages" target="_blank" class="portfolio-title__code">Code</a>
+						</div>
+					</div>
+					<p class="portfolio-descriprion">A responsive React JS application </p>
+					<div class="used">
+						<ul class="used__list">
+							<li class="used__item">React JS</li>
+							<li class="used__item">Tailwind</li>
+							<li class="used__item">Vite</li>
+						</ul>
+					</div>
+					<div class="border"></div>
+					<div class="portfolio-item">
+						<div class="portfolio-item__wrapper">
+							<div class="portfolio-item__screenshots">
+								<picture>
+									<source type="image/webp" srcset="assets/img/monte_public/monte_lg.webp" />
+									<source type="image/png" srcset="assets/img/monte_public/monte_lg.png" />
+									<img src="assets/img/monte_public/monte_lg.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_lg"
+									 title="" />
+								</picture>
+								<picture>
+									<source type="image/webp" srcset="assets/img/monte_public/monte_md.webp" />
+									<source type="image/png" srcset="assets/img/monte_public/monte_md.png" />
+									<img src="assets/img/monte_public/monte_md.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_md"
+									 title="" />
+								</picture>
+								<picture>
+									<source type="image/webp" srcset="assets/img/monte_public/monte_sm.webp" />
+									<source type="image/png" srcset="assets/img/monte_public/monte_sm.png" />
+									<img src="assets/img/monte_public/monte_sm.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_sm"
+									 title="" />
+								</picture>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-title">
+						<h3 class="portfolio-title__text">Montenegro</h3>
+						<div class="portfolio-title__buttons">
+							<a href="https://denislemeshko.github.io/montenegro/" target="_blank" class="portfolio-title__view">View</a>
+							<a href="https://github.com/denislemeshko/montenegro" target="_blank" class="portfolio-title__code">Code</a>
+						</div>
+					</div>
+					<p class="portfolio-descriprion">Travel agency landing page for ordering tours in Montenegro.</p>
+					<div class="used">
+						<ul class="used__list">
+							<li class="used__item">JavaScript</li>
+							<li class="used__item">jQuery</li>
+							<li class="used__item">slick</li>
+							<li class="used__item">magnific-popup</li>
+						</ul>
+					</div>
+					<div class="border"></div>
+					<div class="portfolio-item">
+						<div class="portfolio-item__wrapper">
+							<div class="portfolio-item__screenshots">
+								<picture>
+									<source type="image/webp" srcset="assets/img/space_admin/space_lg.webp" />
+									<source type="image/png" srcset="assets/img/space_admin/space_lg.png" />
+									<img src="assets/img/space_admin/space_lg.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_lg"
+									 title="" />
+								</picture>
+								<picture>
+									<source type="image/webp" srcset="assets/img/space_admin/space_md.webp" />
+									<source type="image/png" srcset="assets/img/space_admin/space_md.png" />
+									<img src="assets/img/space_admin/space_md.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_md"
+									 title="" />
+								</picture>
+								<picture>
+									<source type="image/webp" srcset="assets/img/space_admin/space_sm.webp" />
+									<source type="image/png" srcset="assets/img/space_admin/space_sm.png" />
+									<img src="assets/img/space_admin/space_sm.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_sm"
+									 title="" />
+								</picture>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-title">
+						<h3 class="portfolio-title__text">Space</h3>
+						<div class="portfolio-title__buttons">
+							<a href=" https://denislemeshko.github.io/space/" target="_blank" class="portfolio-title__view">View</a>
+							<a href="https://github.com/denislemeshko/space" target="_blank" class="portfolio-title__code">Code</a>
+						</div>
+					</div>
+					<p class="portfolio-descriprion">Space tourism landing page</p>
+					<div class="used">
+						<ul class="used__list">
+							<li class="used__item">JavaScript</li>
+							<li class="used__item">JQuery</li>
+							<li class="used__item">SASS</li>
+							<li class="used__item">Webpack</li>
+						</ul>
+					</div>
+					<div class="border"></div>
+					<div class="portfolio-item">
+						<div class="portfolio-item__wrapper">
+							<div class="portfolio-item__screenshots">
+								<picture>
+									<source type="image/webp" srcset="assets/img/standfit/standfitlg.webp" />
+									<source type="image/png" srcset="assets/img/standfit/standfitlg.png" />
+									<img src="assets/img/standfit/standfitlg.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_lg"
+									 title="" />
+								</picture>
+								<picture>
+									<source type="image/webp" srcset="assets/img/standfit/standfitmd.webp" />
+									<source type="image/png" srcset="assets/img/standfit/standfitmd.png" />
+									<img src="assets/img/standfit/standfitmd.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_md"
+									 title="" />
+								</picture>
+								<picture>
+									<source type="image/webp" srcset="assets/img/standfit/standfitsm.webp" />
+									<source type="image/png" srcset="assets/img/standfit/standfitsm.png" />
+									<img src="assets/img/standfit/standfitsm.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_sm"
+									 title="" />
+								</picture>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-title">
+						<h3 class="portfolio-title__text">StandFit</h3>
+						<div class="portfolio-title__buttons">
+							<a href="https://denislemeshko.github.io/standfit/" target="_blank" class="portfolio-title__view">View</a>
+							<a href="https://github.com/denislemeshko/standfit" target="_blank" class="portfolio-title__code">Code</a>
+						</div>
+					</div>
+					<p class="portfolio-descriprion">Standfit is a shop selling unique product</p>
+					<div class="used">
+						<ul class="used__list">
+							<li class="used__item">JavaScript</li>
+							<li class="used__item">HTML</li>
+							<li class="used__item">CSS</li>
+						</ul>
+					</div>
+					<div class="border"></div>
+					<div class="portfolio-item">
+						<div class="portfolio-item__wrapper">
+							<div class="portfolio-item__screenshots">
+								<picture>
+									<source type="image/webp" srcset="assets/img/hell/helllg.webp" />
+									<source type="image/png" srcset="assets/img/hell/helllg.png" />
+									<img src="assets/img/hell/helllg.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_lg"
+									 title="" />
+								</picture>
+								<picture>
+									<source type="image/webp" srcset="assets/img/hell/hellmd.webp" />
+									<source type="image/png" srcset="assets/img/hell/hellmd.png" />
+									<img src="assets/img/hell/hellmd.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_md"
+									 title="" />
+								</picture>
+								<picture>
+									<source type="image/webp" srcset="assets/img/hell/hellsm.webp" />
+									<source type="image/png" srcset="assets/img/hell/hellsm.png" />
+									<img src="assets/img/hell/hellsm.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_sm"
+									 title="" />
+								</picture>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-title">
+						<h3 class="portfolio-title__text">Hell Avia</h3>
+						<div class="portfolio-title__buttons">
+							<a href="https://denislemeshko.github.io/vertolet/" target="_blank" class="portfolio-title__view">View</a>
+							<a href="https://github.com/denislemeshko/vertolet" target="_blank" class="portfolio-title__code">Code</a>
+						</div>
+					</div>
+					<p class="portfolio-descriprion">The largest dealer center AirBus in Russia, plus pilot school.</p>
+					<div class="used">
+						<ul class="used__list">
+							<li class="used__item">JavaScript</li>
+							<li class="used__item">Bootstrap</li>
+							<li class="used__item">HTML</li>
+							<li class="used__item">CSS</li>
+						</ul>
+					</div>
+					<div class="border"></div>
+					<div class="portfolio-item">
+						<div class="portfolio-item__wrapper">
+							<div class="portfolio-item__screenshots">
+								<picture>
+									<source type="image/webp" srcset="assets/img/recipes/recipeslg.webp" />
+									<source type="image/png" srcset="assets/img/recipes/recipeslg.png" />
+									<img src="assets/img/recipes/recipeslg.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_lg"
+									 title="" />
+								</picture>
+								<picture>
+									<source type="image/webp" srcset="assets/img/recipes/recipesmd.webp" />
+									<source type="image/png" srcset="assets/img/recipes/recipesmd.png" />
+									<img src="assets/img/recipes/recipesmd.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_md"
+									 title="" />
+								</picture>
+								<picture>
+									<source type="image/webp" srcset="assets/img/recipes/recipessm.webp" />
+									<source type="image/png" srcset="assets/img/recipes/recipessm.png" />
+									<img src="assets/img/recipes/recipessm.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_sm"
+									 title="" />
+								</picture>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-title">
+						<h3 class="portfolio-title__text">Recipes</h3>
+						<div class="portfolio-title__buttons">
+							<a href="https://denislemeshko.github.io/recipes/" target="_blank" class="portfolio-title__view">View</a>
+							<a href="https://github.com/denislemeshko/recipes" target="_blank" class="portfolio-title__code">Code</a>
+						</div>
+					</div>
+					<p class="portfolio-descriprion">Blog about cooking
+						</p>
+					<div
+					 class="used">
+						<ul class="used__list">
+							<li class="used__item">JavaScript</li>
+							<li class="used__item">Bootstrap</li>
+							<li class="used__item">HTML</li>
+							<li class="used__item">CSS</li>
+						</ul>
+				</div>
+				<div class="border">
+				</div>
+
+				</div>
+				
+			</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__wrapp">
+				<div class="footer__sowrapp">
+					<div class="social">
+						<ul class="social__list">
+							<li class="social__str">
+								<a href="https://github.com/denislemeshko" target="_blank" title="github" class="social__link">
+									<svg><use xlink:href="assets/images/icon.svg#icon_github"></use></svg>
+								</a>
+							</li>
+							<li class="social__str">
+								<a href="https://www.linkedin.com/in/denis-lemeshko/"
+								 target="_blank" title="linkedin" class="social__link">
+									<svg><use xlink:href="assets/images/icon.svg#icon_linkedin"></use></svg>
+								</a>
+							</li>
+							<li class="social__str">
+								<a href="https://www.facebook.com/bestofbist" target="_blank" title="facebook" class="social__link">
+									<svg><use xlink:href="assets/images/icon.svg#icon_facebook"></use></svg>
+								</a>
+							</li>
+							<li class="social__str">
+								<a href="https://www.instagram.com/denchikle/" target="_blank" title="instagram" class="social__link">
+									<svg><use xlink:href="assets/images/icon.svg#icon_instagram"></use></svg>
+								</a>
+							</li>
+							<li class="social__str">
+								<a href="https://vk.com/id711903612" target="_blank" title="vk" class="social__link">
+									<svg><use xlink:href="assets/images/icon.svg#icon_vk"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__wrapper">
+					<p class="footer__copyright">&#xa9 Denis Lemeshko 2022</p>
+				</div>
+			</div>
+		</footer>
+		<script src="assets/scripts/app.min.js"></script>
+	</body>
+
+</html>
