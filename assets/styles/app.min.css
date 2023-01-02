@@ -726,7 +726,8 @@ table {
   display: block;
 }
 .portfolio-item__img_lg {
-  width: 50%;
+  width: 55%;
+  height: 70%;
   left: 0;
   z-index: 1;
 }
@@ -734,7 +735,8 @@ table {
   padding-top: 45%;
 }
 .portfolio-item__img_md {
-  width: 50%;
+  width: 37%;
+  left:55%;
   right: 7%;
   z-index: 2;
 }
